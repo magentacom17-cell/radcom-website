@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" width="100%" height="100%">
+  <defs>
+    <style>
+      .blue-mark { fill: #0d2975; }
+      .red-mark  { fill: #de1b28; }
+      .brand-text { 
+        fill: #de1b28; 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+        font-weight: 900; 
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+
+  <!-- RSI Monogram -->
+  <g transform="translate(15, 8)">
+    <!-- R -->
+    <path class="blue-mark" d="M15 10 h26 c20 0 32 8 32 23 0 13 -9 20 -20 22 l23 35 h-22 l-20 -33 h-7 v33 h-12 z M27 21 v25 h13 c11 0 19 -4 19 -13 0 -8 -7 -12 -18 -12 z" />
+
+    <!-- S -->
+    <path class="blue-mark" d="M102 36 c5 -14 19 -21 34 -21 18 0 32 10 32 26 0 16 -12 23 -29 27 -17 4 -23 8 -23 15 0 7 8 12 19 12 11 0 20 -5 25 -12 l15 11 c-8 13 -22 19 -40 19 -22 0 -36 -12 -36 -28 0 -17 14 -24 31 -28 17 -4 21 -7 21 -14 0 -6 -6 -10 -15 -10 -9 0 -16 4 -19 11 z" />
+
+    <!-- I -->
+    <path class="blue-mark" d="M195 90 v-80 h26 v80 z" />
+    <!-- Red triangle on top right of I -->
+    <polygon class="red-mark" points="208,10 226,10 226,28" />
+  </g>
+
+  <!-- Red Company Name: 3 Lines, perfectly centered and balanced -->
+  <g class="brand-text">
+    <text x="150" y="124" font-size="24" letter-spacing="4">RADCOM</text>
+    <text x="150" y="148" font-size="19" letter-spacing="3.5">SOLUSINDO</text>
+    <text x="150" y="170" font-size="17" letter-spacing="2.8">INFORMATIKA</text>
+  </g>
+</svg>

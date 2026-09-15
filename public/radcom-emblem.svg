@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" width="100%" height="100%">
+  <defs>
+    <style>
+      .monogram-blue { fill: #153285; }
+      .accent-red { fill: #E01E2B; }
+    </style>
+  </defs>
+  
+  <g id="rsi-monogram">
+    <!-- Letter R -->
+    <rect x="15" y="15" width="30" height="95" rx="2" class="monogram-blue" />
+    <path d="M 40 15 L 88 15 C 112 15 126 26 126 45 C 126 64 112 75 88 75 L 40 75 Z" class="monogram-blue" />
+    <path d="M 45 35 L 84 35 C 96 35 102 40 102 45 C 102 50 96 55 84 55 L 45 55 Z" fill="#ffffff" />
+    <path d="M 75 70 L 112 110 L 82 110 L 52 75 Z" class="monogram-blue" />
+
+    <!-- Letter S -->
+    <path d="M 132 36 C 138 22 155 14 176 14 C 200 14 215 25 215 41 C 215 58 199 66 176 71 C 153 76 146 81 146 89 C 146 97 156 103 171 103 C 186 103 197 97 203 89 L 222 101 C 210 115 193 121 169 121 C 140 121 120 108 120 87 C 120 69 136 60 160 54 C 183 48 190 44 190 37 C 190 31 183 27 174 27 C 162 27 153 33 148 40 Z" class="monogram-blue" />
+
+    <!-- Letter I -->
+    <path d="M 235 110 L 235 15 L 275 15 L 295 35 L 295 110 Z" class="monogram-blue" />
+    <polygon points="282,15 302,15 302,35" class="accent-red" />
+  </g>
+</svg>
